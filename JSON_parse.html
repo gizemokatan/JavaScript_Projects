@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <p id="myDog"></p>
+
+  <script>
+    /* This is a JSON string variable */
+    var dog = '{"name": "Dax", "breed": "Great Pyrenees", "color": "White"}';
+
+    /* Convert JSON strings to JavaScript objects */
+    var JSONstring = JSON.parse(dog);
+
+    document.getElementById("myDog").innerHTML =
+      JSONstring.name + " the " + JSONstring.breed;
+  </script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+/* Soft creamy background */
+body {
+	background-color: #fdf6e3; /* light cream */
+}
+
+/* Main heading style */
+h1 {
+	font-family: 'Segoe UI', sans-serif;
+	color: #2c3e50; /* dark slate */
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/* Subheadings for sections */
+h3 {
+	font-family: 'Trebuchet MS', sans-serif;
+	color: #16a085; /* teal green */
+}
+
+/* Base style for all divs */
+div {
+	color: #333333;
+	font-family: 'Courier New', monospace;
+}
+
+/* Container for the entire menu */
+#menuBG {
+	width: 420px;
+	height: auto;
+	margin: 20px auto;
+	background-color: #ffffff;
+	border: 2px solid #e0e0e0;
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+}
+
+/* Menu form area */
+#frmMenu {
+	width: 100%;
+	height: auto;
+}
+
+/* Price summary container */
+#totalPrice {
+	width: 200px;
+	height: auto;
+	height: 100px;
+	margin: 20px auto;
+	float: right;
+}
+
+/* Left column for pizza sizes */
+.left {
+	width: 200px;
+	float: left;
+}
+
+/* Center column for veggies */
+.center {
+	width: 200px;
+	float: left;
+}
+
+/* Right column for meats */
+.right {
+	width: 200px;
+	float: right;
+}
+
+/* Order summary text box */
+#showText {
+	width: 200px;
+	height: 100px;
+	margin: 0 auto;
+	float: left;
+}
+
+/* Cart block container */
+#cart {
+	margin: 0 auto;
+	width: 420px;
+	clear: both;
+	padding-top: 20px;
+}
+
+/* Place Order button */
+#btnOrder {
+	width: 120px;
+	height: 45px;
+	display: block;
+	margin: 20px auto;
+
+}
+
+#btnOrder:hover {
+	background-color: #219150;
+}

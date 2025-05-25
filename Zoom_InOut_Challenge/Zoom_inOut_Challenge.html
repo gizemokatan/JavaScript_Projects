@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zoom In & Out Challenge</title>
+  <style>
+    .zoom-box {
+      width: 300px;
+      height: 200px;
+      overflow: hidden;
+      border: 2px solid #555;
+    }
+
+    .zoom-box img {
+      width: 100%;
+      height: 100%;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .zoom-box:hover img {
+      transform: scale(1.2); /* Zoom in */
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Hover to Zoom In</h2>
+  <div class="zoom-box">
+    <img src="./Zoom_InOut_Challenge/image1.jpg" alt="Sample Image">
+  </div>
+
+</body>
+</html>

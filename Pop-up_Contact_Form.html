@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Popup Contact Form</title>
+  <style>
+    /* Buton */
+    .open-button {
+      background-color: #4384af;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* Popup Form */
+    .form-popup {
+      display: none;
+      position: fixed;
+      bottom: 50px;
+      right: 20px;
+      border: 2px solid #879bac;
+      z-index: 9;
+      background-color: white;
+      padding: 20px;
+    }
+
+    .form-container input[type=text], .form-container input[type=email] {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0 10px;
+      border: 1px solid #ccc;
+    }
+
+    .form-container .btn {
+      background-color: #95cae9;
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .form-container .cancel {
+      background-color: rgb(117, 185, 202);
+    }
+  </style>
+</head>
+<body>
+
+<button class="open-button" onclick="openForm()">Contact</button>
+
+<div class="form-popup" id="myForm">
+  <form class="form-container">
+    <h2>Please call us!</h2>
+
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Name" name="name" required>
+
+    <label for="email"><b>E-mail</b></label>
+    <input type="email" placeholder="E-mail" name="email" required>
+
+    <label for="msg"><b>Please write your message!</b></label>
+    <input type="text" place

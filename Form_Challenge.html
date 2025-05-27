@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Challenge</title>
+  <script>
+    function validateForm() {
+      var phone = document.forms["myForm"]["phone"].value;
+      if (phone == "") {
+        alert("Please write the phone number!");
+        return false;
+      }
+    }
+  </script>
+</head>
+<body>
+
+  <h2>Contact Form</h2>
+
+  <form name="myForm" onsubmit="return validateForm()">
+    <label for="phone">Phone Number:</label><br>
+    <input type="text" id="phone" name="phone"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
